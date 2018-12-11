@@ -1,0 +1,33 @@
+.media {
+  height: 200px;
+  padding-top: 56.25%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  background: white;
+  transition: all 0.1s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  flex: 1;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.delete {
+  margin-left: auto !important;
+}
+
+.actions {
+  margin-top: auto;
+}
